@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,58 +32,6 @@
             android:textSize="24sp" />
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/btnC"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="MC"
-            android:textSize="20sp" />
-        <Button
-            android:id="@+id/btnC"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="MR"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btnC"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="M+"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btnOpen"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="M-"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btnClose"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="MS"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btnDiv"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="M"
-            android:textSize="20sp" />
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -89,15 +40,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnC"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="%"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btnOpen"
+            android:id="@+id/btnCE"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -105,7 +48,7 @@
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btnClose"
+            android:id="@+id/btnC"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -113,41 +56,11 @@
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btnDiv"
+            android:id="@+id/btnBS"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Del"
-            android:textSize="20sp" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btnC"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="1/x"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btnOpen"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="x^2"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btnClose"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="2√x"
+            android:text="BS"
             android:textSize="20sp" />
 
         <Button
@@ -194,7 +107,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="*"
+            android:text="x"
             android:textSize="20sp" />
     </LinearLayout>
 
@@ -268,7 +181,7 @@
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btnPlus"
+            android:id="@+id/btnAdd"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -282,7 +195,7 @@
         android:layout_weight="1"
         android:orientation="horizontal">
         <Button
-            android:id="@+id/btnResult"
+            android:id="@+id/btnDoidau"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
